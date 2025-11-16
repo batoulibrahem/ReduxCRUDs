@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import recordsReducer from "./recordsSlice"; // أو المسار الصحيح حسب مكان الملف
+import recordsReducer from "./recordsSlice";
 
 export const store = configureStore({
   reducer: {
